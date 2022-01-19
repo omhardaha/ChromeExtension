@@ -1,0 +1,15 @@
+{
+    "name":"Tools+",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"popup.html",
+        "defailt_icon":"fav.png"
+    },"icons": { 
+       "16": "favicon-16x16.png",
+       "48": "fav.png",
+       "128": "fav.png"
+     },
+    
+    "permissions":["activeTab", "tabs","desktopCapture","downloads"]
+}
