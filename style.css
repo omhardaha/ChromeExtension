@@ -1,22 +1,39 @@
-.box{
-    display: grid;
-    /* flex-direction: column; */
-    grid-template-columns: 
-   auto;
- grid-template-areas:
-   "title"
-   "bt1 bt2"
-   "qr";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+  text-align: center;
+  font-family: Montserrat;
+  background: #4568dc;
+  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #3c185f, #2c49a9);
 }
-.title{
-    grid-area: title;
+h1 {
+  margin: 0;
+  border-color: cadetblue;
+  margin-bottom: 8px;
+  color: #ffe900;
+  font-family: "Shizuru", cursive;
 }
-.btn1{
-    grid-area: bt1;
+
+.qr-image {
+  height: 181px;
+  margin: 12px ;
+  
+  border: 9px solid #6e717269;
 }
-.btn2{
-    grid-area: bt2;
-}
-.qr{
-    grid-area: qr;
+button {
+  margin: 2vh auto;
+  color: wheat;
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+  width: 160px;
+  background-color: #8b8b8b30;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
